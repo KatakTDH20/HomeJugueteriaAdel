@@ -1,0 +1,89 @@
+
+
+/* Media Queries para diseño responsivo */
+@media (max-width: 991px) {
+    .navbar-toggler{
+      filter: invert(1);
+    }
+    .navbar-brand img {
+      width: 200px; 
+    }
+  
+    /* Elimina el texto "tu tienda favorita..." */
+    #banner p {
+      display: none; 
+    }
+  
+    /*responsividad de nosotros*/
+    #nosotros .card {
+      margin-bottom: 20px;
+      transform: none; 
+    }
+    
+    #nosotros .card:hover {
+      transform: none; 
+    }
+  
+    #nosotros .card-title {
+      font-size: 1.5em;
+    }
+  
+    #nosotros .card-text {
+      font-size: 0.7em;
+    }
+  
+    #nosotros .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    
+    #nosotros .icon-container {
+      font-size: 40px;
+      padding: 20px;
+    }
+  
+    #nosotros .card-body {
+      padding: 15px;
+    }
+  
+    /*responsividad productos*/
+    #productos .card {
+      margin-bottom: 20px;
+    }
+  
+    #productos .card-title {
+      font-size: 1.5em;
+    }
+  
+    #productos .card-text {
+      font-size: 0.7em;
+    }
+  
+    /*responsividad contacto*/
+    .form {
+      padding: 30px;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    form h2 {
+      font-size: 28px;
+    }
+  
+    .btn {
+      padding: 12px 40px;
+      font-size: 14px;
+    }
+  
+    .input-container > input {
+      padding: 15px 15px 15px 55px;
+    }
+  
+    .input-container > i {
+      font-size: 18px;
+      left: 10px;
+    }
+  }
+  
